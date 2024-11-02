@@ -1,0 +1,13 @@
+# 忽略 Maven 构建输出
+target/
+
+# 忽略 Gradle 构建输出
+build/
+.gradle/
+
+# 忽略 Eclipse 和 IntelliJ IDEA 项目文件
+.classpath
+.project
+.settings/
+.idea/
+*.iml
