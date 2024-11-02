@@ -1,0 +1,16 @@
+name: XYkillJS
+version: 3.2.1
+main: cn.xydym.fantasy.XYkillJS
+description: "一个在玩家击杀特定生物时给予经济奖励的插件"
+author: "xydym"
+depend:
+  - Vault
+commands:
+  xykjsreload:
+    description: 重新加载插件配置文件
+    usage: /<command>
+    permission: xykilljs.reload
+  xykjsredayset:
+    description: 刷新每日奖励上限文件数据
+    usage: /<command>
+    permission: xykilljs.reset

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="XYkillJS:jar">
+    <output-path>$PROJECT_DIR$/../../测试服务器/aaaacc/plugins</output-path>
+    <root id="archive" name="XYkillJS-Bukkit.jar">
+      <element id="module-output" name="XYkillJS" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
